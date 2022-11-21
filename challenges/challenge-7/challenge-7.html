@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>challenge-7</title>
+    <link rel="stylesheet" href="challegne-7.css" />
+  </head>
+  <body>
+    <div class="screen">
+      <div class="top-bar">
+        <i class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="artist">
+        <img
+          src="data:image/jpeg;base64,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"
+        />
+      </div>
+      <div class="text">
+        <h1 class="text__title">Jay Park</h1>
+        <h3 class="text__subtitle">Hip-Hop, Rap</h3>
+      </div>
+      <div class="buttons">
+        <div class="buttons__shuffle"><span>Shuffle</span></div>
+        <div class="buttons__likes">
+          <i class="fa-solid fa-heart"> </i>
+          <span>3M</span>
+        </div>
+      </div>
+
+      <div class="list">
+        <div class="list-song">
+          <div class="list-song__cover">
+            <img
+              src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzA3MThfMjQ5%2FMDAxNTAwMzA2MTI4NDU3.Sg3urQ3PCCfiKKaj7z6Qty8g1L2JcDYGvPLR9SoFozQg.rGreffKe0rKndOjf7Kcs1UrQS07YYHRtRnyeAUriWBkg.PNG.jengayoung%2F%25C4%25B8%25C3%25B3.PNG&type=sc960_832"
+            />
+          </div>
+          <div class="list-song__info">
+            <h3 class="text__subtitle">Jay Park (Feat.Sik-K)</h3>
+            <h2 class="text__name">YACHT</h2>
+          </div>
+          <div class="list-song__icon">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+        <div class="list-song">
+          <div class="list-song__cover">
+            <img
+              src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA0MjVfMjM3%2FMDAxNTg3ODA1OTM0NTA1.3vXSp63BAgjLHmPZNkAvrnACkKC-oJJMK5utQHnb7Yog.faXC7Z-mJYATXl3eudeBzmUS2A-iTYLvaz1NRuVcja4g.JPEG.cylab%2F%25B9%25DA%25C0%25E7%25B9%25FC_-_All_The_Way_Up_%2528K%2529.jpg&type=sc960_832"
+            />
+          </div>
+          <div class="list-song__info">
+            <h3 class="text__subtitle">Jay Park</h3>
+            <h2 class="text__name">All The Way Up</h2>
+          </div>
+          <div class="list-song__icon">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+        <div class="list-song">
+          <div class="list-song__cover">
+            <img
+              src="https://image.bugsm.co.kr/album/images/500/40723/4072354.jpg"
+            />
+          </div>
+          <div class="list-song__info">
+            <h3 class="text__subtitle">Jay Park (Feat.IU)</h3>
+            <h2 class="text__name">GANADARA</h2>
+          </div>
+          <div class="list-song__icon">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+        <div class="list-song">
+          <div class="list-song__cover">
+            <img
+              src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAxMjJfNDgg%2FMDAxNDg1MDgzODc2NjA3.-gw4P_xfi91i2kWh1dN34XFvTBDddHIJF5SZ92BPju8g.o6UmpRM3s_KepevuXJnfk1kq162PzYBKwUb3QsL2OxQg.JPEG.princessllia%2FP20170122_201219294_E4713581-F3D5-4937-933A-346C6A8C6AFA.JPG&type=sc960_832"
+            />
+          </div>
+          <div class="pause">
+            <i class="fa-solid fa-pause"></i>
+          </div>
+
+          <div class="list-song__info">
+            <h3 class="text__subtitle">Jay Park</h3>
+            <h2 class="text__name">JOAH</h2>
+          </div>
+          <div class="list-song__icon">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+        <div class="list-song">
+          <div class="list-song__cover">
+            <img
+              src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA5MTdfMTI5%2FMDAxNTM3MTYyNjI3MDQ2.crto73vsG1vKiCsBkfSOs4nBUvFvo7-XPy6j-5Pkx_Ig.5kKFOw2_eCniNSJuVh1AglR3WXnSwGNvxFmSXBsDZOYg.PNG.hcbtz2424%2Fimage.png&type=sc960_832"
+            />
+          </div>
+          <div class="list-song__info">
+            <h3 class="text__subtitle">Jay Park</h3>
+            <h2 class="text__name">V</h2>
+          </div>
+          <div class="list-song__icon">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-player">
+        <div class="bottom-player__info">
+          <h3 class="text__subtitle">Jay Park</h3>
+          <h2 class="text__name">JOAH</h2>
+        </div>
+        <div class="bottom-player__control">
+          <i class="fa-solid fa-backward-step"></i>
+          <i class="fa-solid fa-pause fa-xl"></i>
+          <i class="fa-solid fa-forward-step"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen">
+      <div class="top-bar">
+        <i class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
+
+      <div class="player-cover">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAxMjJfNDgg%2FMDAxNDg1MDgzODc2NjA3.-gw4P_xfi91i2kWh1dN34XFvTBDddHIJF5SZ92BPju8g.o6UmpRM3s_KepevuXJnfk1kq162PzYBKwUb3QsL2OxQg.JPEG.princessllia%2FP20170122_201219294_E4713581-F3D5-4937-933A-346C6A8C6AFA.JPG&type=sc960_832"
+        />
+      </div>
+      <div class="text">
+        <h1 class="text__title">JOAH</h1>
+        <h3 class="text__subtitle">Jay Park</h3>
+      </div>
+      <div class="player-time">
+        <span>1:20</span>
+        <span>-2:30</span>
+      </div>
+      <div class="player-range">
+        <div class="player-range__played"></div>
+        <i class="fa-solid fa-circle"></i>
+      </div>
+
+      <div class="player-buttons">
+        <i class="fa-solid fa-repeat"></i>
+        <i class="fa-solid fa-backward-step"></i>
+        <i class="fa-solid fa-play"></i>
+        <i class="fa-solid fa-forward-step"></i>
+        <i class="fa-solid fa-shuffle"></i>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/0f3b201aff.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+/*icon-row*/
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row__icon span {
+  margin-top: 18px;
+}
+
+.screen-header__icons {
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  left: 97px;
+  bottom: 17px;
+}
