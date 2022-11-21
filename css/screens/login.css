@@ -12,7 +12,7 @@
 }
 
 .welcome-header__text {
-  color: grey;
+  color: var(--gray);
 }
 
 #login-form {
@@ -35,13 +35,13 @@
 }
 
 #login-form input[type="submit"] {
-  background-color: #f6e10c;
+  background-color: var(--blue);
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #login-form input:focus {
-  border-bottom: 1px solid #f6e10c;
+  border-bottom: 1px solid var(--blue);
 }
 
 #login-form a {

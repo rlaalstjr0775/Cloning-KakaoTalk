@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ,k>
   <head>
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
@@ -27,7 +27,7 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Stocks</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
@@ -37,16 +37,19 @@
 
     <a href="#" id="friends-display-link">
       <i class="fas fa-info-circle"></i>
-      Friend's Names Display
+      Stocks's Display
       <i class="fas fa-chevron-right fa-xs"></i>
     </a>
 
     <main class="friends-screen">
       <div class="user-component">
         <div class="user-component__column">
-          <img src="img/profile-pic.jpeg" class="user-component__avatar--xl" />
+          <img
+            src="https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/6ktE/image/Z5oe-a1ltVUwkFLUhQjcClr3ae0.jpeg"
+            class="user-component__avatar--xl"
+          />
           <div class="user-component__text">
-            <h4 class="user-component__title">Glenn</h4>
+            <h4 class="user-component__title">Warren Buffett</h4>
             <!--<h6 class="user-component__subtitle">This is test</h6>-->
           </div>
         </div>
@@ -54,17 +57,18 @@
       </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
-          <span>Channel</span>
+          <span>Stocks</span>
           <i class="fas fa-chevron-up fa xs"></i>
         </div>
+
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="img/profile-pic.jpeg"
+              src="https://1000logos.net/wp-content/uploads/2016/10/Apple_logo_grey.png"
               class="user-component__avatar--sm"
             />
             <div class="user-component__text">
-              <h4 class="user-component__title--not-bold">Channel</h4>
+              <h4 class="user-component__title--not-bold">Apple</h4>
             </div>
           </div>
           <div class="user-component__column">
@@ -72,6 +76,49 @@
               <span>2</span>
               <i class="fas fa-chevron-right fa-xs"></i>
             </div>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="data:image/png;base64,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"
+              class="user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title--not-bold">Bank of America</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div></div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://media.designrush.com/inspiration_images/134801/conversions/_1511456381_693_chevron-preview.jpg"
+              class="user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title--not-bold">Chevron</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div></div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://logos-world.net/wp-content/uploads/2020/03/Coca-Cola-Logo-1987-2009.png"
+              class="user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title--not-bold">Coca-Cola</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div></div>
           </div>
         </div>
       </div>
@@ -86,7 +133,7 @@
         </li>
         <li class="nav-bar__btn">
           <a class="nav-bar__link" href="chats.html">
-            <span class="nav-bar__notification badge">1</span>
+            <span class="nav-bar__notification badge">!</span>
             <i class="far fa-comment fa-2x"></i
           ></a>
         </li>
@@ -104,11 +151,11 @@
       </ul>
     </nav>
     <div id="splash-screen">
-      <i class="fas fa-comment fa-2x"></i>
+      <img src="img/Toss_App_Icon.png" />
     </div>
 
     <div id="no-mobile">
-      <span>Your screen is too big</span>
+      <span>Your screen is too big 😅</span>
     </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
